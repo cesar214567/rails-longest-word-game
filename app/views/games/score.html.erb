@@ -1,0 +1,9 @@
+<% if @return_hash[:message] =="well done" %>
+  <div class="alert alert-success" role="alert">
+    <%= @return_hash %>
+  </div>
+<% else %>
+  <div class="alert alert-danger" role="alert">
+    <%= @return_hash %>
+  </div>
+<% end %>
